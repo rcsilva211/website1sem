@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de avaliação 1</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="https://megaone.acrothemes.com/football/img/favicon.ico">
+    <!--Icones-->
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+    <!--font awesome icons-->
+    <script src="https://kit.fontawesome.com/7832167536.js" crossorigin="anonymous"></script>
+
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto:wght@300;400&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: #2b2b2b;
+            font-weight: 600;
+            line-height: 25px;
+
+        }
+
+
+        .section1 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.4)), url("https://megaone.acrothemes.com/football/img/slider2.jpg");
+            background-position: center;
+            background-size: cover;
+            max-height: 100%;
+            height: 100%;
+        }
+
+        .logo {
+            max-width: 80px;
+            vertical-align: sub;
+            margin-right: auto;
+            margin-left: 17%;
+        }
+
+        header {
+            position: sticky;
+            padding-top: 16px;
+            padding-right: 20px;
+            padding-left: 30px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .nav_links a {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            color: #ffffff;
+            text-align: center;
+            padding: 6.4px 24px;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        nav {
+            padding-right: 3%;
+        }
+
+        .menu_barras {
+            color: white
+        }
+
+        .formataricon {
+            font-size: 36px;
+            color: white;
+            padding-left: 100px;
+            margin-left: auto;
+            margin-right: 25px;
+        }
+
+
+        .section2 {
+            position: absolute;
+            left: 350px;
+            top: 33%;
+            color: white;
+        }
+
+        .section2_content {
+            line-height: 0;
+        }
+
+        .section2 h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 80px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .section2_coluna1 {
+            background-color: none;
+            color: white;
+            padding: 23px 25px;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            display: inline-block;
+            border: 1px solid white;
+            margin: 0px 16px 0px 0px;
+        }
+
+        .section2_content a:hover {
+            background-color: #067AC0;
+            color: white;
+        }
+
+        .section2_coluna2 {
+            background-color: white;
+            color: black;
+            padding: 23px 25px;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            display: inline-block;
+        }
+
+
+        .section3 {
+            position: absolute;
+            width: 100%;
+            background-color: #ffffff;
+            background-attachment: fixed;
+
+            /*URL copiado de .svg*/
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23067ac0' stroke-width='0.8' stroke-opacity='0.02'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+
+
+            width: 100%;
+            height: 1070px;
+        }
+
+
+        .container_resultados {
+            position: relative;
+            width: 60%;
+            transform: translateY(-50%);
+            margin: auto;
+            height: 250px;
+            display: flex;
+            gap: 15px;
+            background-color: #fff;
+            align-items: center;
+            vertical-align: middle;
+            box-shadow: 1px 1px 15px #e1e1e1;
+
+        }
+
+        .parte_esquerda {
+            position: relative;
+            display: flex;
+            flex-basis: 100%;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            gap: 15px;
+            width: 50%;
+            border-right: 10px double rgba(43, 43, 43, 0.35);
+        }
+
+        .parte_direita {
+            position: relative;
+            display: flex;
+            flex-basis: 100%;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            gap: 15px;
+            width: 50%;
+        }
+
+        .parte_esquerda img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .parte_direita img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .equipa_texto {
+            width: 70%;
+        }
+
+        .equipa_texto h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 50px;
+        }
+
+        .equipa_texto h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .equipa_texto h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .section4 {
+            position: relative;
+            padding-top: 220px;
+            padding-bottom: 120px;
+            margin: auto;
+        }
+
+        .about_container {
+            display: flex;
+            max-width: 1140px;
+            margin: auto;
+        }
+
+        .headline_left {
+            line-height: 15px;
+            width: 500px;
+            padding-bottom: 15px;
+        }
+
+        .headline_left h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            color: #067AC0;
+        }
+
+        .headline_left h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 48px;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .headline_right {
+            text-align: right;
+            max-width: 100%;
+            padding-left: 15px;
+            justify-content: right;
+            padding-right: 15px;
+            padding-bottom: 15px;
+        }
+
+        .headline_right p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .artigo1 {
+            background-color: #067AC0;
+            display: flex;
+            color: white;
+            width: 550px;
+            margin-bottom: 30px;
+        }
+
+        .artigo1 img {
+            width: 50%;
+            vertical-align: middle;
+            margin-right: 16px;
+        }
+
+        .texto_artigo1 {
+            padding-top: 8%;
+            padding-bottom: auto;
+            padding-left: 3%;
+            padding-right: auto;
+            vertical-align: middle;
+        }
+
+        .texto_artigo1 h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .texto_artigo1 h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .texto_artigo1 p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+
+        .artigo2 {
+            background-color: #067AC0;
+            display: flex;
+            color: white;
+            width: 550px;
+            margin-bottom: 30px;
+        }
+
+        .artigo2 img {
+            width: 50%;
+            vertical-align: middle;
+            margin-right: 16px;
+        }
+
+        .texto_artigo2 {
+            padding-top: 7%;
+            padding-bottom: auto;
+            padding-left: 3%;
+            padding-right: auto;
+            vertical-align: middle;
+        }
+
+        .texto_artigo2 h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .texto_artigo2 h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .texto_artigo2 p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+
+
+        .artigo3 {
+            margin-top: 25px;
+            background-color: #067AC0;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            width: 550px;
+            margin-left: 30px;
+            padding-bottom: 18px;
+        }
+
+        .artigo3 img {
+            width: 100%;
+            vertical-align: middle;
+        }
+
+        .texto_artigo3 {
+            padding-top: 4%;
+            padding-bottom: auto;
+            padding-left: 3%;
+            padding-right: auto;
+            vertical-align: middle;
+        }
+
+        .texto_artigo3 h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .texto_artigo3 h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        .texto_artigo3 p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+
+        .section5 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.4)), url("https://megaone.acrothemes.com/football/img/cover-image.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            width: 100%;
+            height: 500px;
+            color: white;
+        }
+
+        .containerseccao5 {
+            text-align: center;
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .colunaseccao5 {
+            padding-top: 160px;
+            padding-bottom: auto;
+            width: 255px;
+        }
+
+        .colunaseccao5 h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 17.6px;
+        }
+
+        .colunaseccao5 h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 40px;
+        }
+
+        /*Ícone section 5*/
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 1,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 48;
+        }
+
+        .colunaseccao5 i {
+            font-size: 40px;
+            fill: 1;
+        }
+
+
+        .section6 {
+
+            padding-top: 120px;
+            margin-left: -15px;
+            margin-right: -15px;
+            width: 100%;
+            max-height: 560px;
+            background-color: white;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23067ac0' stroke-width='0.8' stroke-opacity='0.02'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+            background-attachment: fixed;
+        }
+
+
+        .left_section6 {
+            width: 70%;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .right_section6 {
+            width: 70%;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .left_headline_6 h1 {
+            background-color: #067AC0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .right_headline_6 h1 {
+            background-color: #067AC0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            margin: 0;
+        }
+
+
+        .tempo {
+            display: flex;
+            max-width: 100%;
+            text-align: center;
+        }
+
+        .tempo h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 50px;
+        }
+
+        .tempo h2 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+            font-weight: 300;
+        }
+
+        .tempo_col {
+            flex-grow: 1;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .equipas_lb {
+            display: flex;
+            flex-grow: 1;
+            border: 3px dashed #067AC0;
+            padding: 25px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .equipa_left {
+            padding-right: 0;
+            padding-left: 0;
+            width: 33.3333%;
+            text-align: center;
+        }
+
+        .equipa_left h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        .equipa_centro {
+            padding-top: 10%;
+            padding-bottom: auto;
+            padding-left: 25px;
+            padding-right: auto;
+            display: flex;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            width: 33.3333%;
+        }
+
+        .equipa_centro h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+            -webkit-text-stroke: 1px rgb(6, 122, 192);
+            -webkit-text-fill-color: transparent;
+        }
+
+        .box_img {
+            height: 150px;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .box_img img {
+            width: 100%;
+        }
+
+        .equipa_right {
+            height: 150px;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 0;
+            padding-left: 0;
+            width: 33.3333%;
+            text-align: center;
+        }
+
+        .equipa_right h2 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        .formataricon_section6 {
+            transform: translate(50%, -50%);
+        }
+
+        .tempo_bola {
+            align-self: center;
+            padding-right: 20px;
+            -webkit-text-stroke: 1px rgb(6, 122, 192);
+            -webkit-text-fill-color: transparent;
+        }
+
+        .container_tabela {
+            display: flex;
+            max-width: 1140px;
+            margin: auto;
+            height: 600px;
+            justify-content: center;
+        }
+
+        table {
+            width: 100%;
+            max-height: 100%;
+            color: #212529;
+            border-collapse: collapse;
+        }
+
+        thead {
+            display: table-header-group;
+            vertical-align: middle;
+            border-color: inherit;
+        }
+
+        th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6;
+            padding: .75rem;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        td {
+            padding: .75rem;
+            vertical-align: top;
+            border-top: 1px solid #dee2e6;
+            border-bottom: 2px solid #dedede;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .td_special th {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+
+
+        .section7 {
+            width: 100%;
+            height: auto;
+            padding-top: 120px;
+            background-color: white;
+        }
+
+        .section7_top {
+            max-width: 570px;
+            margin: auto;
+            padding-bottom: 48px;
+        }
+
+        .section7_headline {
+            text-align: center;
+        }
+
+        .section7_headline h2 {
+            color: #067AC0;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 1rem;
+            line-height: 10px;
+        }
+
+        .section7_headline h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 48px;
+            margin-bottom: 8px;
+        }
+
+        .section7_headline p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        .section7_gallery_sort {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section7_gallery_sort span {
+            align-self: center;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .section7_gallery_sort h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .section7_gallery_sort h3:hover {
+            color: #067AC0;
+        }
+
+        .container_galeria {
+            max-width: 100%;
+            max-height: 645px;
+            display: flex;
+            margin-top: 40px;
+            margin-bottom: 120px;
+            justify-content: center;
+        }
+
+        .s7_coluna1 img {
+            max-width: 308px;
+            max-height: 100%;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .s7_coluna2 img{
+            width: 626px;
+            max-height: 100%;
+        }
+
+        .s7_coluna3 img {
+            max-width: 626px;
+            max-height: 100%;
+        }
+
+        .s7_coluna3_bottom{
+            display: flex;
+        }
+
+        .s7_coluna3_bottom img{
+            width: 308px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .s7_coluna4 img {
+            width: 308px;
+            max-height: 645px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .s7_coluna2_top{
+            display: flex;
+        }
+        .s7_coluna2_top img{
+            width: 308px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+
+
+
+
+        .section8 {
+            width: 100%;
+            height: 700px;
+            padding-top: 120px;
+            background-color: white;
+            padding-bottom: 120px;
+        }
+
+
+        .section8_headline {
+            text-align: center;
+            max-width: 570px;
+            margin: auto;
+            padding-bottom: 48px;
+        }
+
+        .section8_headline h2 {
+            color: #067AC0;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 1rem;
+            line-height: 10px;
+        }
+
+        .section8_headline h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 48px;
+            margin-bottom: 8px;
+        }
+
+        .section8_headline p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        .section8_member_container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .member {
+            padding: 10px;
+        }
+
+        .member_text {
+            margin: auto;
+            max-width: 250px;
+            line-height: 10px;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 15px;
+            background-color: white;
+            transform: translateY(-90px);
+            padding-bottom: 8px;
+        }
+
+        .member_text h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .member_text h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            padding-bottom: 8px;
+        }
+
+        .socials {
+            margin: auto;
+            max-width: 250px;
+            height: 50px;
+            padding-top: 5%;
+            padding-bottom: auto;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #067AC0;
+            transform: translateY(-106px);
+        }
+
+        .socials a {
+            padding-top: 25%;
+            color: white;
+            padding-left: 5px;
+        }
+
+        .socials i {
+            border: 1px solid;
+            border-radius: 50px;
+            padding: 5px;
+        }
+
+        .section9 {
+            width: 100%;
+            height: 558px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.3)), url("https://megaone.acrothemes.com/football/img/testimionial.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display: flex;
+        }
+
+        .s9_containerbox {
+            width: 480px;
+            height: 258px;
+            margin: auto;
+            transform: translate(-40px, -40px);
+        }
+
+        .s9_container {
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        .s9_container_text p {
+            margin: 0 0 25px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .s9_container_text i {
+            font-size: 40px;
+        }
+
+        .s9_container_rodape {
+            width: 100%;
+            height: 93px;
+            display: flex;
+        }
+
+        .s9_container_rodape img {
+            width: auto;
+            height: 65px;
+            border-radius: 50px;
+        }
+
+        .s9_rodape_texto {
+            padding-left: 20px;
+        }
+
+        .s9_rodape_texto h1 {
+            margin-top: 10px;
+            margin-bottom: 4px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .s9_rodape_texto p {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+
+        .estrelas {
+            color: rgb(255, 213, 0);
+            margin-top: 5px;
+            font-size: 15px;
+        }
+
+        .section10 {
+            width: 100%;
+            height: 538.8px;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23067ac0' stroke-width='0.8' stroke-opacity='0.02'%3E%3Crect x='-40' y='40' width='75' height='75'/%3E%3Crect x='-35' y='45' width='65' height='65'/%3E%3Crect x='-30' y='50' width='55' height='55'/%3E%3Crect x='-25' y='55' width='45' height='45'/%3E%3Crect x='-20' y='60' width='35' height='35'/%3E%3Crect x='-15' y='65' width='25' height='25'/%3E%3Crect x='-10' y='70' width='15' height='15'/%3E%3Crect x='-5' y='75' width='5' height='5'/%3E%3Crect width='35' height='35'/%3E%3Crect x='5' y='5' width='25' height='25'/%3E%3Crect x='10' y='10' width='15' height='15'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='40' width='75' height='75'/%3E%3Crect x='45' y='5' width='65' height='65'/%3E%3Crect x='50' y='10' width='55' height='55'/%3E%3Crect x='55' y='15' width='45' height='45'/%3E%3Crect x='60' y='20' width='35' height='35'/%3E%3Crect x='65' y='25' width='25' height='25'/%3E%3Crect x='70' y='30' width='15' height='15'/%3E%3Crect x='75' y='35' width='5' height='5'/%3E%3Crect x='40' y='80' width='35' height='35'/%3E%3Crect x='45' y='85' width='25' height='25'/%3E%3Crect x='50' y='90' width='15' height='15'/%3E%3Crect x='55' y='95' width='5' height='5'/%3E%3Crect x='120' y='-40' width='75' height='75'/%3E%3Crect x='125' y='-35' width='65' height='65'/%3E%3Crect x='130' y='-30' width='55' height='55'/%3E%3Crect x='135' y='-25' width='45' height='45'/%3E%3Crect x='140' y='-20' width='35' height='35'/%3E%3Crect x='145' y='-15' width='25' height='25'/%3E%3Crect x='150' y='-10' width='15' height='15'/%3E%3Crect x='155' y='-5' width='5' height='5'/%3E%3Crect x='120' y='40' width='35' height='35'/%3E%3Crect x='125' y='45' width='25' height='25'/%3E%3Crect x='130' y='50' width='15' height='15'/%3E%3Crect x='135' y='55' width='5' height='5'/%3E%3Crect y='120' width='75' height='75'/%3E%3Crect x='5' y='125' width='65' height='65'/%3E%3Crect x='10' y='130' width='55' height='55'/%3E%3Crect x='15' y='135' width='45' height='45'/%3E%3Crect x='20' y='140' width='35' height='35'/%3E%3Crect x='25' y='145' width='25' height='25'/%3E%3Crect x='30' y='150' width='15' height='15'/%3E%3Crect x='35' y='155' width='5' height='5'/%3E%3Crect x='200' y='120' width='75' height='75'/%3E%3Crect x='40' y='200' width='75' height='75'/%3E%3Crect x='80' y='80' width='75' height='75'/%3E%3Crect x='85' y='85' width='65' height='65'/%3E%3Crect x='90' y='90' width='55' height='55'/%3E%3Crect x='95' y='95' width='45' height='45'/%3E%3Crect x='100' y='100' width='35' height='35'/%3E%3Crect x='105' y='105' width='25' height='25'/%3E%3Crect x='110' y='110' width='15' height='15'/%3E%3Crect x='115' y='115' width='5' height='5'/%3E%3Crect x='80' y='160' width='35' height='35'/%3E%3Crect x='85' y='165' width='25' height='25'/%3E%3Crect x='90' y='170' width='15' height='15'/%3E%3Crect x='95' y='175' width='5' height='5'/%3E%3Crect x='120' y='160' width='75' height='75'/%3E%3Crect x='125' y='165' width='65' height='65'/%3E%3Crect x='130' y='170' width='55' height='55'/%3E%3Crect x='135' y='175' width='45' height='45'/%3E%3Crect x='140' y='180' width='35' height='35'/%3E%3Crect x='145' y='185' width='25' height='25'/%3E%3Crect x='150' y='190' width='15' height='15'/%3E%3Crect x='155' y='195' width='5' height='5'/%3E%3Crect x='160' y='40' width='75' height='75'/%3E%3Crect x='165' y='45' width='65' height='65'/%3E%3Crect x='170' y='50' width='55' height='55'/%3E%3Crect x='175' y='55' width='45' height='45'/%3E%3Crect x='180' y='60' width='35' height='35'/%3E%3Crect x='185' y='65' width='25' height='25'/%3E%3Crect x='190' y='70' width='15' height='15'/%3E%3Crect x='195' y='75' width='5' height='5'/%3E%3Crect x='160' y='120' width='35' height='35'/%3E%3Crect x='165' y='125' width='25' height='25'/%3E%3Crect x='170' y='130' width='15' height='15'/%3E%3Crect x='175' y='135' width='5' height='5'/%3E%3Crect x='200' y='200' width='35' height='35'/%3E%3Crect x='200' width='35' height='35'/%3E%3Crect y='200' width='35' height='35'/%3E%3C/g%3E%3C/svg%3E");
+            background-attachment: fixed;
+        }
+
+        .section10_headline {
+            text-align: center;
+            max-width: 570px;
+            margin: auto;
+            padding-bottom: 48px;
+        }
+
+        .section10_headline h2 {
+            color: #067AC0;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 1rem;
+            line-height: 10px;
+        }
+
+        .section10_headline h1 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 400;
+            font-size: 48px;
+            padding-bottom: 28px;
+            margin-bottom: 0;
+        }
+
+        .s10_form {
+            max-width: 750px;
+            display: block;
+            text-align: left;
+            margin: 0 auto;
+        }
+
+        .s10_form_container {
+            margin-right: -15px;
+            margin-left: -15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+
+        .form_part_normal {
+            border-bottom: 1px solid #e2e2e2;
+            height: 35px;
+            margin-bottom: 2rem;
+            width: 360px;
+            margin-right: 25px;
+            background-color: white;
+        }
+
+        .form_part_normal h2 {
+            color: grey;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        .form_part_special {
+            width: 780px;
+            height: 199px;
+            border-bottom: 1px solid #e2e2e2;
+            margin-bottom: 2rem;
+            margin-right: 25px;
+            background-color: white;
+        }
+
+        .form_part_special h2 {
+            color: grey;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        .contact_now_container {
+            margin: auto;
+            width: 750px;
+            padding-right: 15px;
+            padding-left: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact_now_button {
+            width: 75px;
+            padding: 5px 25px;
+            background-color: #067AC0;
+            margin: auto;
+        }
+
+        .contact_now_button h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            color: white;
+        }
+
+        .contact_now_button:hover {
+            background-color: black;
+        }
+
+
+        footer {
+            padding: 5rem 0;
+            background-color: rgb(248, 249, 250);
+        }
+
+        .footer_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .s11_coluna_left a {
+            color: rgb(43, 43, 43);
+        }
+
+        .s11_coluna_left a {
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            border-radius: 50px;
+            font-size: 17px;
+            margin-right: 10px;
+        }
+
+        .s11_coluna_left a:hover {
+            background-color: #067AC0;
+            color: white;
+            border-radius: 50%;
+
+        }
+
+        .s11_coluna_left {
+            display: flex;
+        }
+
+        .s11_coluna_right h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+
+        .socials i:hover{
+            background-color: white;
+            color: #067AC0;
+        }
+
+        .socials i{
+            font-size: 14px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--Seciton 1 - Barra de navegação-->
+    <div id="HOME" class="section1">
+        <header>
+            <a class="logo" href="#"><img class="logo" src="https://megaone.acrothemes.com/football/img/logo-white.png"
+                    alt="logo inicial"></a>
+            <nav>
+                <ul class="nav_links">
+                    <a href="#HOME">Home</a></li>
+                    <a href="#ABOUTUS">About Team</a>
+                    <a href="#LEADERBOARD">Leaderboard</a>
+                    <a href="#GALLERY">Gallery</a>
+                    <a href="#PLAYERS">Players</a>
+                    <a href="#REVIEWS">Reviews</a>
+                    <a href="#">Contact</a>
+                </ul>
+            </nav>
+            <a class="menu_barras" href="#"><span class="material-symbols-outlined formataricon">menu</span></a>
+        </header>
+    </div>
+
+    <!--Section 2 - Texto inicial-->
+    <div class="section2">
+        <div class="section2_content">
+            <h4>The Most latest</h4>
+            <h2>Rise as one</h2>
+            <h4>Joins Us For The Better Football</h4>
+            <a class="section2_coluna1" href="#ABOUTUS">Book now</a>
+            <a class="section2_coluna2" href="#">Watch match</a>
+        </div>
+    </div>
+
+    <!--Section 3-->
+    <div class="section3">
+        <!--Resultados-->
+        <div class="container_resultados">
+            <div class="parte_esquerda">
+                <div class="equipa_left1">
+                    <img src="https://megaone.acrothemes.com/football/img/team-logo1.png" alt="Esquipa esquerda 1">
+                </div>
+                <div class="equipa_texto">
+                    <h2>Jan 10th, 2020</h2>
+                    <h1>1 - 3</h1>
+                    <h3>Champions League</h3>
+                </div>
+                <div class="equipa_left2">
+                    <img src="https://megaone.acrothemes.com/football/img/team-logo5.png" alt="Equipa esquerda 2">
+                </div>
+            </div>
+            <div class="parte_direita">
+                <div class="equipa_right1">
+                    <img src="https://megaone.acrothemes.com/football/img/team-logo4.png" alt="Esquipa direita 1">
+                </div>
+                <div class="equipa_texto">
+                    <h2>Jan 10th, 2020</h2>
+                    <h1>2 - 2</h1>
+                    <h3>Champions League</h3>
+                </div>
+                <div class="equipa_right2">
+                    <img src="https://megaone.acrothemes.com/football/img/team-logo6.png" alt="Equipa direita 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 4 - artigos-->
+    <div id="ABOUTUS" class="section4">
+        <div class="about_container">
+            <div class="left_column">
+                <div class="headline_left">
+                    <h2>Join Our Club</h2>
+                    <h1>about us</h1>
+                </div>
+
+                <div class="artigo1">
+                    <img src="https://megaone.acrothemes.com/football/img/about1.jpg" alt="">
+                    <div class="texto_artigo1">
+                        <h2>Jan 3rd, 2020</h2>
+                        <h1>best soccer drills</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit la Pellentesque .</p>
+                    </div>
+                </div>
+                <div class="artigo2">
+                    <img src="https://megaone.acrothemes.com/football/img/about2.jpg" alt="">
+                    <div class="texto_artigo2">
+                        <h2>March 20th, 2020</h2>
+                        <h1>FOOTBALL MATCH HIGHLIGHTS </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit la Pellentesque .</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="right_column">
+                <div class="headline_right">
+                    <p>There are many variations of passages of Lorem Ipsum available be the majority have suffered
+                        alteration in some form.</p>
+                </div>
+
+                <div class="artigo3">
+                    <img src="https://megaone.acrothemes.com/football/img/about3.jpg" alt="">
+                    <div class="texto_artigo3">
+                        <h2>March 20th, 2020</h2>
+                        <h1>FOOTBALL MATCH HIGHLIGHTS </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit la Pellentesque .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 5 - display de números-->
+    <div class="section5">
+        <div class="containerseccao5">
+            <div class="colunaseccao5">
+                <i class="fa-solid fa-check"></i>
+                <h1>1800</h1>
+                <h2>Total Matches</h2>
+            </div>
+            <div class="colunaseccao5">
+                <i class="fa-solid fa-flag"></i>
+                <h1>125</h1>
+                <h2>Total Goals</h2>
+            </div>
+            <div class="colunaseccao5">
+                <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                <h1>5500</h1>
+                <h2>Team Donation</h2>
+            </div>
+            <div class="colunaseccao5">
+                <i class="fa-solid fa-trophy"></i>
+                <h1>17</h1>
+                <h2>Winners</h2>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 6 - Tabela de classificações-->
+    <div id="LEADERBOARD" class="section6">
+        <div class="container_tabela">
+            <div class="left_section6">
+                <div class="left_headline_6">
+                    <h1>NEXT MATCH</h1>
+                </div>
+                <div class="tempo">
+                    <div class="tempo_col">
+                        <h1>00</h1>
+                        <h2>Days</h2>
+                    </div>
+                    <div class="tempo_bola">
+                        <span class="material-symbols-outlined formataricon_section6">
+                            circle
+                        </span>
+                    </div>
+                    <div class="tempo_col">
+                        <h1>00</h1>
+                        <h2>Hrs</h2>
+                    </div>
+                    <div class="tempo_bola">
+                        <span class="material-symbols-outlined formataricon_section6">
+                            circle
+                        </span>
+                    </div>
+                    <div class="tempo_col">
+                        <h1>00</h1>
+                        <h2>Mins</h2>
+                    </div>
+                    <div class="tempo_bola">
+                        <span class="material-symbols-outlined formataricon_section6">
+                            circle
+                        </span>
+                    </div>
+                    <div class="tempo_col">
+                        <h1>00</h1>
+                        <h2>Secs</h2>
+                    </div>
+                </div>
+
+                <div class="equipas_lb">
+                    <div class="equipa_left">
+                        <div class="box_img">
+                            <img src="https://megaone.acrothemes.com/football/img/team-logo1.png" alt="">
+                        </div>
+                        <h2>MADRID FC</h2>
+                    </div>
+                    <div class="equipa_centro">
+                        <h1>- VS -</h1>
+                    </div>
+                    <div class="equipa_right">
+                        <div class="box_img">
+                            <img src="https://megaone.acrothemes.com/football/img/team-logo4.png" alt="">
+                        </div>
+                        <h2>THUNDER WAVES</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="right_section6">
+                <div class="right_headline_6">
+                    <h1>LEADERBOARD</h1>
+                </div>
+                <div class="lb_resultados">
+                    <div class="tabela_container">
+                        <table class="tabela">
+                            <!--Tabela - headline-->
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">TEAM</th>
+                                    <th scope="col">P</th>
+                                    <th scope="col">W</th>
+                                    <th scope="col">L</th>
+                                    <th scope="col">PTS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--Tabela - corpo-->
+                                <tr class="td_special">
+                                    <th scope="row"><b>1</b></th>
+                                    <td>TUNDER WAVE</td>
+                                    <td>4</td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><b>2</b></th>
+                                    <td>LASK</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>6</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><b>3</b></th>
+                                    <td>INTER MILAN</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><b>4</b></th>
+                                    <td>RAPID WIEN</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>4</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><b>5</b></th>
+                                    <td>RED BULLS</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><b>6</b></th>
+                                    <td>MADRID FC</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><b>7</b></th>
+                                    <td>MAN CITY</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 7 - Galeria-->
+    <div id="GALLERY" class="section7">
+        <div class="section7_top">
+            <div class="section7_headline">
+                <h2>Your Amazing Memories & Tours</h2>
+                <h1>OUR GALLERY</h1>
+                <p>There are many variations of passages of Lorem Ipsum available be the majority have suffered
+                    alteration in some form.</p>
+            </div>
+            <div class="section7_gallery_sort">
+                <h3>All</h3>
+                <span> / </span>
+                <h3>Players</h3>
+                <span> / </span>
+                <h3>Training</h3>
+                <span> / </span>
+                <h3>Achivements</h3>
+                <span> / </span>
+                <h3>Matches</h3>
+            </div>
+        </div>
+        <div class="section7_bottom">
+            <div class="container_galeria">
+                <div class="s7_coluna1">
+                    <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary3.jpg"
+                            alt=""></a>
+                    <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary8.jpg"
+                            alt=""></a>
+                </div>
+                <div class="s7_coluna2">
+                    <div class="s7_coluna2_top">
+                        <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary4.jpg" alt=""></a>
+                        <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary5.jpg" alt=""></a>
+                    </div>
+                    <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary1.jpg" alt=""></a>
+                </div>
+                <div class="s7_coluna3">
+                    <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary.jpg" alt=""></a>
+                    <div class="s7_coluna3_bottom">
+                        <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary7.jpg" alt=""></a>
+                        <a href="#"><img src="https://megaone.acrothemes.com/football/img/gallary9.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="s7_coluna4">
+                    <a href="#"><img class="s7_img2" src="https://megaone.acrothemes.com/football/img/gallary6.jpg"
+                            alt=""></a>
+                    <a href="#"><img class="s7_img1" src="https://megaone.acrothemes.com/football/img/gallary2.jpg"
+                            alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 8 - Jogadores-->
+    <div id="PLAYERS" class="section8">
+        <div class="section8_headline">
+            <h2>Let's Meet To Our Players</h2>
+            <h1>OUR PLAYERS</h1>
+            <p>There are many variations of passages of Lorem Ipsum available be the majority have suffered
+                alteration in some form.</p>
+        </div>
+        <div class="section8_member_container">
+            <div class="member">
+                <img src="https://megaone.acrothemes.com/football/img/team4.jpg" alt="">
+                <div class="member_text">
+                    <h1>Smith Al</h1>
+                    <h2>Defender</h2>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="member">
+                <img src="https://megaone.acrothemes.com/football/img/team1.jpg" alt="">
+                <div class="member_text">
+                    <h1>Alan David</h1>
+                    <h2>Goalkeeper</h2>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="member">
+                <img src="https://megaone.acrothemes.com/football/img/team2.jpg" alt="">
+                <div class="member_text">
+                    <h1>Mike Smith</h1>
+                    <h2>Captain</h2>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Section 9 - Reviews-->
+    <div id="REVIEWS" class="section9">
+        <div class="s9_containerbox">
+            <div class="s9_container">
+                <div class="s9_container_text">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <p> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc
+                        vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor
+                        justo sed mi finibus, vel tristique risus faucibus. </p>
+                </div>
+                <div class="s9_container_rodape">
+                    <a href="#"><img src="https://megaone.acrothemes.com/football/img/client1.jpg" alt=""></a>
+                    <div class="s9_rodape_texto">
+                        <h1>Janey Williams</h1>
+                        <p>Coach</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 10 - contacto-->
+    <div id="CONTACT" class="section10">
+        <div class="section10_headline">
+            <h2>For Support Contact Us</h2>
+            <h1>Let's Get In Touch</h1>
+        </div>
+        <div class="s10_form">
+            <div class="s10_form_container">
+                <div class="s10_col_left">
+                    <div class="form_part_normal">
+                        <h2>First Name:</h2>
+                    </div>
+                    <div class="form_part_normal">
+                        <h2>Email:</h2>
+                    </div>
+                </div>
+
+                <div class="s10_col_right">
+                    <div class="form_part_normal">
+                        <h2>Last Name:</h2>
+                    </div>
+                    <div class="form_part_normal">
+                        <h2>Phone:</h2>
+                    </div>
+                </div>
+                <div class="form_part_special">
+                    <h2>Message</h2>
+                </div>
+            </div>
+        </div>
+        <div class="contact_now_container">
+            <div class="contact_now_button">
+                <h1>Contact Now</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Section 11 - Rodapé-->
+    <footer class="section11">
+        <div class="footer_container">
+            <div class="s11_coluna_left">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <div class="s11_coluna_right">
+                <h2>© 2020 MegaOne. Replicated for education purposes by Rodrigo Silva</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
